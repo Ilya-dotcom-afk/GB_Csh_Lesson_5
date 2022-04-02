@@ -1,4 +1,4 @@
-﻿// Показать числа Фибоначчиee
+﻿// Показать числа Фибоначчи
 Console.WriteLine("Сколько чисел Фибонначи вывести в консоль?");
 int number = Convert.ToInt32(Console.ReadLine());
 int i = 1;
@@ -21,3 +21,4 @@ while (i <= number)
         i++;
     }
 }
+Console.WriteLine();
